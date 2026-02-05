@@ -10,9 +10,8 @@ public class Access {
         System.out.println("Maximum speed is "+ maxSpeed);
     }
 
-    public static void main(String[] args) {
+    public static void main(Stringg[] args) {
         
-        Access obj = new Access();
         FullThrotle();
         Speed(200);
     }

@@ -1,0 +1,3 @@
+# REFERENCE VARIABLE
+1: A reference variable does not store the actual object.
+2: USED TO STORE THE ADDRESS OF OJECT IN MEMORY.

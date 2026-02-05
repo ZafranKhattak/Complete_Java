@@ -12,7 +12,6 @@ class Main
 CREATING OBJECT
 */
 
-package Class;
 /*
 class Main
 {

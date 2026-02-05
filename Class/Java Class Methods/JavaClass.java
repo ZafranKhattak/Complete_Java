@@ -4,7 +4,7 @@ public class JavaClass {
     {
         System.out.println("Hello World");
     }
-    public static void main(String[] args) {
+    public static void main(Stringg[] args) {
         MyMethod();
     }
 }
