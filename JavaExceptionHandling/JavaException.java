@@ -1,16 +1,33 @@
-class JavaException {
-    public static void main(String args[]) {
-        int a = 5;
-        int b = 0;
-        try {
-            int result = a / b;
-            System.out.println("This will not executed....");
-        } catch (ArithmeticException e) {
-            System.out.println("Cannot divide number by 0");
-        } finally {
-            System.out.println("This will always execute even if there is Exception handling in the code ");
-        }
-        System.out.println("Program ends");
+class JavaException
+{
+	public static void main(String args[])
 
+	{
+		int a = 12;
+		int b = 0;
+	try 
+	{
+		int result = a / b;
+	}
+	catch(ArithmeticException e)
+	{
+		System.out.println("Cannot divide by 0");
+	}
+
+	int arr[] = {1,2};
+
+	try
+	{
+		System.out.println(arr[6]);
+	}
+	catch(ArrayIndexOutOfBoundsException e)
+	{
+		System.out.println("Value not found");
+	}
+    finally
+    {
+        System.out.println("This is run always");
     }
+
+}
 }
